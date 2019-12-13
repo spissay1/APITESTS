@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="132509ff-34d1-437e-a419-d6e82b290d8c" name="Default Changelist" comment="" />
+    <list default="true" id="132509ff-34d1-437e-a419-d6e82b290d8c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AddDeleteItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BasicTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BasicTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/BasicTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BasicTest.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +21,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,6 +32,10 @@
     </option>
   </component>
   <component name="ProjectId" id="1UsXjEPyXkGilCLTwHHT8cK1BPP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -35,23 +48,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.BasicTest.testCurrency">
-    <configuration name="BasicTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.AddDeleteItems.deleteItem">
+    <configuration name="AddDeleteItems.deleteItem" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APITEST" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BasicTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BasicTest.testCurrency" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APITEST" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BasicTest" />
-      <option name="METHOD_NAME" value="testCurrency" />
+      <option name="MAIN_CLASS_NAME" value="AddDeleteItems" />
+      <option name="METHOD_NAME" value="deleteItem" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -59,11 +61,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BasicTest.testStatusCode" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AddDeleteItems.getProducts" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APITEST" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AddDeleteItems" />
+      <option name="METHOD_NAME" value="getProducts" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddDeleteItems.testAddItem" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APITEST" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AddDeleteItems" />
+      <option name="METHOD_NAME" value="testAddItem" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddDeleteItems.viewCart" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APITEST" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AddDeleteItems" />
+      <option name="METHOD_NAME" value="viewCart" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasicTest.testPostCall" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APITEST" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="BasicTest" />
-      <option name="METHOD_NAME" value="testStatusCode" />
+      <option name="METHOD_NAME" value="testPostCall" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -73,9 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.BasicTest.testCurrency" />
-        <item itemvalue="TestNG.BasicTest" />
-        <item itemvalue="TestNG.BasicTest.testStatusCode" />
+        <item itemvalue="TestNG.AddDeleteItems.deleteItem" />
+        <item itemvalue="TestNG.AddDeleteItems.viewCart" />
+        <item itemvalue="TestNG.AddDeleteItems.testAddItem" />
+        <item itemvalue="TestNG.AddDeleteItems.getProducts" />
+        <item itemvalue="TestNG.BasicTest.testPostCall" />
       </list>
     </recent_temporary>
   </component>
@@ -91,5 +131,16 @@
       <updated>1576146409679</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
