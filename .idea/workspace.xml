@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="132509ff-34d1-437e-a419-d6e82b290d8c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AddDeleteItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CollectionsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BasicTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BasicTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/BasicTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BasicTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AddDeleteItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AddDeleteItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/AddDeleteItems.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/AddDeleteItems.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,30 +60,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddDeleteItems.getProducts" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APITEST" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AddDeleteItems" />
-      <option name="METHOD_NAME" value="getProducts" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AddDeleteItems.testAddItem" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APITEST" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AddDeleteItems" />
-      <option name="METHOD_NAME" value="testAddItem" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="AddDeleteItems.viewCart" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APITEST" />
       <option name="PACKAGE_NAME" value="" />
@@ -97,11 +72,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BasicTest.testPostCall" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CollectionsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APITEST" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BasicTest" />
-      <option name="METHOD_NAME" value="testPostCall" />
+      <option name="MAIN_CLASS_NAME" value="CollectionsTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CollectionsTest.arrayListTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APITEST" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CollectionsTest" />
+      <option name="METHOD_NAME" value="arrayListTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CollectionsTest.linkedlistTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APITEST" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CollectionsTest" />
+      <option name="METHOD_NAME" value="linkedlistTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -112,10 +110,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.AddDeleteItems.deleteItem" />
+        <item itemvalue="TestNG.CollectionsTest.linkedlistTest" />
+        <item itemvalue="TestNG.CollectionsTest.arrayListTest" />
+        <item itemvalue="TestNG.CollectionsTest" />
         <item itemvalue="TestNG.AddDeleteItems.viewCart" />
-        <item itemvalue="TestNG.AddDeleteItems.testAddItem" />
-        <item itemvalue="TestNG.AddDeleteItems.getProducts" />
-        <item itemvalue="TestNG.BasicTest.testPostCall" />
       </list>
     </recent_temporary>
   </component>
